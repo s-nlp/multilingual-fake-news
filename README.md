@@ -1,6 +1,6 @@
 # multilingual-fake-news
 
-The code for the paper "Fake News Detection using Multilingual Evidence based".
+The code for the paper "Fake News Detection using Multilingual Evidence".
 
 The hypothesis described in the paper was tested with two experiments:
 
