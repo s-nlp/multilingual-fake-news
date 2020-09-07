@@ -67,7 +67,7 @@ def news_evaluation():
 
             # saving
             dataset.to_csv('fakenewsdataset_results.tsv', sep='\t', index=False)
-            with open('fakenewsdataset_sraping_results.pkl', 'wb') as file:
+            with open('fakenewsdataset_scraping_results.pkl', 'wb') as file:
                 pickle.dump(scraping_results, file, pickle.HIGHEST_PROTOCOL)
 
 
