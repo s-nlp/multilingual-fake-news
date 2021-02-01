@@ -1,10 +1,11 @@
 import spacy
 lemmatizers = {
     'en': spacy.load('en'),
-    'fr': spacy.load('fr'),
+    'fr': spacy.load('fr'),  # to load language use 'python -m spacy download fr'
     'de': spacy.load('de'),
     'es': spacy.load('es'),
-    'ru': spacy.load('spacy-ru/ru2'),
+    # git clone -b v2.1 https://github.com/buriy/spacy-ru.git && cp -r ./spacy-ru/ru2/. /ru2
+    'ru': spacy.load('../spacy-ru/ru2'),  # set path to the lib
 }
 
 TIMEOUT = 5
