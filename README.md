@@ -16,6 +16,8 @@ The code for the computation of **Multiverse** feature. The feature was firstly 
 
 **Step 5. News classification:** Based on the information from the previous step, the decision is made about the authenticity of the news. If the majority of results support the original news, then it is more likely to be true; if there are contradictions -- it is a signal to consider the news as a fake.
 
+*We performed a study where Step 4 and 5 were conducted not automatically but by human annotators. Its annotation schema is avaialble in [this spreadsheet](https://docs.google.com/spreadsheets/d/16HSCTSJhjdPNAD_IEHKBJS1fL_j6PPl0dCqUGlo6t3Q/edit?usp=sharing). It may be useful for reproducing the original study described in the paper below.*
+
 ## Code
 
 `evidence_scraping.py`: the main entrance to the code, that runs Multiverse feature extraction.
